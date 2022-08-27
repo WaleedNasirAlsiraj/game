@@ -1,0 +1,61 @@
+/*  background color (#1E1E2C)
+    foreground color (#242636)
+    primary button color (#0277FA) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 10px;
+}
+
+body{
+    background-color: #1E1E2C;
+    text-align: center;
+}
+
+.game{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#your-choice{
+    width: 200px;
+    height: 200px;
+    background-color:#242636;
+    padding:15px;
+    border-radius: 10px;
+}
+
+#opponent-choice{
+    width: 200px;
+    height: 200px;
+    background-color:#242636;
+    padding:15px;
+    border-radius: 10px;
+}
+
+#choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 200px;
+    background-color:#242636;
+    border-radius: 10px;
+}
+
+img{
+    width:66px;
+}
+
+.win{
+    border: 3px solid green;
+}
+
+.lose{
+    border: 3px solid red;
+}
